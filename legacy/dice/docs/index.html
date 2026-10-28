@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дуэль на кубиках</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Дуэль на кубиках</h1>
+    <p class="subtitle">Брось кубики и узнай, кто победил.</p>
+
+    <section class="board">
+      <div class="player">
+        <h2>Игрок</h2>
+        <div id="playerDice" class="dice">—</div>
+        <div id="playerScore" class="score">Сумма: —</div>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="player">
+        <h2>Компьютер</h2>
+        <div id="computerDice" class="dice">—</div>
+        <div id="computerScore" class="score">Сумма: —</div>
+      </div>
+    </section>
+
+    <button id="rollButton">Бросить кубики</button>
+    <p id="result" class="result">Нажми кнопку, чтобы начать.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
